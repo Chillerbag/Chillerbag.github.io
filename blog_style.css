@@ -1,0 +1,56 @@
+header {
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px; /* Adjust the value as needed */
+}
+
+
+body {
+    position: relative;
+    font-family: 'Cascadia Code', sans-serif;
+  }
+nav {
+    text-align: center;
+    word-spacing: 30px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 15px; /* Adjust the value as needed */
+}
+  
+  .blog-entry {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  
+  .entry-title {
+    color: #333;
+  }
+  
+  .entry-content {
+    margin-bottom: 10px;
+  }
+  
+  .full-content {
+    display: none;
+  }
+  
+  .expand-button {
+    background-color: #bd1eb5;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Cascadia Code', sans-serif;
+  }
+  
+  .expand-button:hover {
+    background-color: #bd1eb5;
+  }
+  
