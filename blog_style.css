@@ -1,7 +1,7 @@
 header {
     padding: 20px;
     text-align: center;
-    border-radius: 15px; /* Adjust the value as needed */
+    border-radius: 15px; 
 }
 
 
@@ -14,7 +14,7 @@ nav {
     word-spacing: 30px;
     padding: 10px;
     border: 2px solid #000;
-    border-radius: 15px; /* Adjust the value as needed */
+    border-radius: 15px; 
 }
   
   .blog-entry {
