@@ -15,6 +15,7 @@ nav {
     padding: 10px;
     border: 2px solid #000;
     border-radius: 15px; 
+    overflow: hidden;
 }
   
   .blog-entry {
@@ -53,4 +54,38 @@ nav {
   .expand-button:hover {
     background-color: #bd1eb5;
   }
+
+  .left-image {
+    float: left;
+    margin-right: 20px; 
+    width: 10%;
+    height: 10%;
+
+  }
+
+  .right-image {
+    float: right;
+    margin-right: 20px; 
+    width: 25%;
+    height: 25%;
+
+  }
+
+  .flex-container {
+    overflow: hidden;
+  }
+  
+  .side-by-side {
+    float: left;
+    margin-right: 10px;
+  }
+
+  .centre-image {
+    right: 200px;
+    width: 30%;
+    height: 30%;
+
+  }
+
+  
   
