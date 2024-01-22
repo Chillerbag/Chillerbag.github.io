@@ -6,7 +6,10 @@ category: projects
 
 Zoe Stellamanns (my lovely girlfriend), Ryan Kitchen, Luke Bosnic, and myself entered the Unimelb game makers club summer game jam 2024!!
 
+The title is *Speed Re:View*
+
 ---
+
 
 The theme was 'speedrun' so we made a very literal game where you speedrun reviewing speedruns for authenticity! 
 
@@ -32,3 +35,4 @@ Hopefully, this learning will be shown in future game jam projects!
 
 - [Link to game](#https://blipity.itch.io/speed-review)
 - [Github Repo](#https://github.com/Chillerbag/UnimelbSummerGameJam2024)
+- [Link to the Jam!](#https://itch.io/jam/umgmc-summer-jam-24)
