@@ -7,6 +7,8 @@ category: projects
 Zoe Stellamanns (my lovely girlfriend), Ryan Kitchen, Luke Bosnic, and myself entered the Unimelb game makers club summer game jam 2024!!
 
 The title is *Speed Re:View*
+![logo](images/SpeedReviewLogo-01232024.png)
+*Game logo*
 
 ---
 
@@ -14,6 +16,8 @@ The title is *Speed Re:View*
 The theme was 'speedrun' so we made a very literal game where you speedrun reviewing speedruns for authenticity! 
 
 A lot got cut out and may be added / fixed down the line, but hopefully its enjoyable!
+![Gameplay](images/SpeedReviewGameplay-01232024.png)
+*main gameplay screen!*
 
 ---
 {: data-content="Skills"}
