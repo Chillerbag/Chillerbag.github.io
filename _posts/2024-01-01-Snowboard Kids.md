@@ -4,14 +4,14 @@ category: blog
 ---
 
 ## [Less is More]
-![Box Art](images/SBKBoxArt-01012024.jpg){:.ioda}
+![Box Art](images/SBKBoxArt-01012024.jpg)
 *Snowboard Kids 1 - Japanese promotional art*
 
 
 Snowboard Kids is certainly a Kart Racer in its simplicity, but the exceedingly tight glide down the series’ mountaintops without the common need to hold down an acceleration button and simply accruing momentum from the descent lends the games a distinct liveliness. The player isn’t doing much input, so the level design instead becomes the focal point of the games hook; mastery of the track becomes the aim, not mastery of the control. In this way, whilst panned for its simplicity at launch, Snowboard Kids is a distinct “less is more” type of game in a genre characterized by chaos and hidden depth. 
 
 Snowboard Kids big-nosed ‘chibi’ style characters set the tone for the gameplay with their non-serious, perhaps odd looking design akin to a Winter Olympics mascot. Textures are correspondingly intense bright with multicolored text. It doesn’t try for detail and simply revels in its cartoon-come-alive feel. Even in the below stage, Sunny Mountain the purples in the water and the snow against the lightly gradient blue sky complete the color palette without a need to adhere to believability. This is where the N64 visuals shined!
-![Sunny Mountain](images/SunnyMountain-01012024.gif){:.ioda}
+![Sunny Mountain](images/SunnyMountain-01012024.gif)
 
 *Snowboard Kids 2 - Sunny Mountain*
 
