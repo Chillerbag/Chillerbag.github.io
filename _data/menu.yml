@@ -8,6 +8,10 @@ entries:
       - title: github repo
         url: https://github.com/Chillerbag/Chillerbag.github.io
 
+      - title: about me
+        url: about
+
+
   - title: game blog 
     post_list:
       category: blog 
@@ -23,5 +27,3 @@ entries:
   - title: archive
     url: archive.html
   
-  - title: about
-    url: about

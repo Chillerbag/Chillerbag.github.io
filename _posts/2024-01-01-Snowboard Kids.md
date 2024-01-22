@@ -4,10 +4,16 @@ category: blog
 ---
 
 ## [Less is More]
+![theme logo](images/SBKBoxArt-01012024){:.ioda}
+*Snowboard Kids 1 - Japanese promotional art*
+
 
 Snowboard Kids is certainly a Kart Racer in its simplicity, but the exceedingly tight glide down the series’ mountaintops without the common need to hold down an acceleration button and simply accruing momentum from the descent lends the games a distinct liveliness. The player isn’t doing much input, so the level design instead becomes the focal point of the games hook; mastery of the track becomes the aim, not mastery of the control. In this way, whilst panned for its simplicity at launch, Snowboard Kids is a distinct “less is more” type of game in a genre characterized by chaos and hidden depth. 
 
 Snowboard Kids big-nosed ‘chibi’ style characters set the tone for the gameplay with their non-serious, perhaps odd looking design akin to a Winter Olympics mascot. Textures are correspondingly intense bright with multicolored text. It doesn’t try for detail and simply revels in its cartoon-come-alive feel. Even in the below stage, Sunny Mountain the purples in the water and the snow against the lightly gradient blue sky complete the color palette without a need to adhere to believability. This is where the N64 visuals shined!
+![theme logo](images/SunnyMountain-01012024){:.ioda}
+
+*Snowboard Kids 2 - Sunny Mountain*
 
 The soundtrack makes incredible use of the sometimes restrictive MIDI format with catchy loops. Notably, Big Snowman from Snowboard Kids 1 has a dominant synth that captures the simple joy of the game in its endlessly hummable melody. None of the tracks are dense underground techno like WipE’out or the characteristic big band tracks of Mario Kart, but their simplictly aligns with the games own. Both games soundtracks also recently released on Spotify, and are perfect easy listening. Personal picks are: Board Shop (SK1), Big Snowman (SK1), Grass Valley (SK1), Character Select (SK2), Turtle Island (SK2), and Starlight Highway (SK2).
 
@@ -16,3 +22,4 @@ Mechanically, there are areas where it still has a leg up on Mario Kart. There a
 For those weary of the Kart Racer genre, Snowboard Kids is a rewarding play despite its simplicity. It offers all the gratifying aural, visual flair one would want in a Snowboarding or Skateboarding game whilst attempting to evolve a formula that at its time was in its infancy. Due to its poor reception and sales, many of these innovative mechanics that differentiate it are isolated to Snowboard Kids. For those nostalgic for it, soaring down its slopes now with the ability to understand how it still stands apart among its now-adult peers parallels the critical understanding of Snowboard Kids, and for all, the series’ elegance in its uncomplicated sophistication revitalizes the childhood mystique that came with playing a new video game.
 
 Merry Christmas and Happy New Year!
+
