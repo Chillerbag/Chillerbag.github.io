@@ -1,6 +1,6 @@
 ---
 layout: post
-slug: hr example
+slug: speed review
 category: projects
 ---
 
