@@ -1,0 +1,18 @@
+{% if include.category %}
+  {% assign posts = site.posts | where: "category", include.category %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% if include.limit %}
+  {% assign posts = posts | limit: include.limit %}
+{% endif %}
+
+<ul>
+  {% for post in posts %}
+    <li>
+      <span>{{ post.date | date: site.theme_config.date_format }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a>
+    </li>
+  {% endfor %}
+</ul>

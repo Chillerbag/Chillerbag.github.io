@@ -1,0 +1,29 @@
+{% for item in include.collection %}
+  <li>
+    {%- if item.title == "info" -%}
+      {% include 3d_title.html %}
+    {%- else -%}
+      {%- if item.url -%}
+        <a href="{{ item.url }}">{{ item.title }}</a>
+      {%- else -%}
+        {{ item.title }}
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if item.post_list -%}
+      {%- include post_list.html
+        category=item.post_list.category
+        limit=item.post_list.limit
+        show_more=item.post_list.show_more
+        show_more_text=item.post_list.show_more_text
+        show_more_url=item.post_list.show_more_url
+      -%}
+    {%- endif -%}
+
+    {%- if item.entries -%}
+      <ul>
+        {% include menu_item_list.html collection=item.entries %}
+      </ul>
+    {%- endif -%}
+  </li>
+{% endfor %}

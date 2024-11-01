@@ -4,25 +4,25 @@
 entries:
   - title: info
     entries:
-      - title: a site for my personal projects and blogging about lesser known video games!
-      - title: github repo
+      - title: This is the portfolio of Ethan Hawkins. Updates coming soon!
+      - title: github repo for this site
         url: https://github.com/Chillerbag/Chillerbag.github.io
 
       - title: about me
         url: about
 
+  - title: projects 
+    post_list:
+      category: projects
+
 
   - title: game blog 
     post_list:
       category: blog 
-      limit: 3
+      limit: 1
       show_more: true
       show_more_text: See more posts...
       show_more_url: blog-archive.html
-
-  - title:  personal projects 
-    post_list:
-      category: projects
 
   - title: archive
     url: archive.html

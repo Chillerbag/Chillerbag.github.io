@@ -1,26 +1,11 @@
----
-layout: default
----
-
-{% include back_link.html %}
-
-<article>
-  <div id="3d-title-container" style="width: 100%; height: 50px; margin: 20px 0;"></div>
-  
-  <p class="post-meta">
-    <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
-  </p>
-
-  {{ content }}
-</article>
-
+<div id="3d-title-container" style="width: 100%; height: 150px;"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script>
 class Title3D {
     constructor() {
         this.container = document.getElementById('3d-title-container');
         this.scene = new THREE.Scene();
-        this.camera = new THREE.PerspectiveCamera(40, this.container.clientWidth / this.container.clientHeight, 0.2, 800);
+        this.camera = new THREE.PerspectiveCamera(75, this.container.clientWidth / this.container.clientHeight, 0.1, 1000);
         this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
         
         this.init();
@@ -41,12 +26,10 @@ class Title3D {
 
         const loader = new THREE.FontLoader();
         loader.load('https://threejs.org/examples/fonts/helvetiker_bold.typeface.json', (font) => {
-            // Use the page title as the 3D text
-            const text = "{{ page.title }}";
-            const geometry = new THREE.TextGeometry(text, {
+            const geometry = new THREE.TextGeometry('computer games', {
                 font: font,
-                size: 5,  // Smaller size for potentially longer titles
-                height: 0.8,
+                size: 2,
+                height: 0.5,
                 curveSegments: 12,
                 bevelEnabled: true,
                 bevelThickness: 0.1,
@@ -98,7 +81,6 @@ class Title3D {
     }
 }
 
-// Initialize when the page loads
 document.addEventListener('DOMContentLoaded', () => {
     new Title3D();
 });

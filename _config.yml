@@ -8,9 +8,7 @@ description: > # description of the site (multiple lines allowed)
 
 permalink: /:slug.html
 
-favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
-
-remote_theme: riggraz/no-style-please 
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
