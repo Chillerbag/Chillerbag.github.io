@@ -73,7 +73,7 @@ class Title3D {
 
         document.addEventListener('mousemove', (event) => {
             if (this.textMesh) {
-                const mouseX = (event.clientX / window.innerWidth) * 2 - 1;
+                const mouseX = (event.clientX / window.innerWidth);
                 const mouseY = -(event.clientY / window.innerHeight) * 2 + 1;
                 this.textMesh.rotation.x = mouseY * 0.2;
                 this.textMesh.rotation.y = mouseX * 0.2;

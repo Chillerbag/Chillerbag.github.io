@@ -37,6 +37,6 @@ Hopefully, this learning will be shown in future game jam projects!
 ---
 {: data-content="links"}
 
-- [Link to game](#https://blipity.itch.io/speed-review)
-- [Github Repo](#https://github.com/Chillerbag/UnimelbSummerGameJam2024)
-- [Link to the Jam!](#https://itch.io/jam/umgmc-summer-jam-24)
+- [Link to game](https://blipity.itch.io/speed-review)
+- [Github Repo](https://github.com/Chillerbag/UnimelbSummerGameJam2024)
+- [Link to the Jam!](https://itch.io/jam/umgmc-summer-jam-24)
