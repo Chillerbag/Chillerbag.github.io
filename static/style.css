@@ -5,33 +5,6 @@ body {
     background-color: #C6EADD;
   }
 
-header {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  background-color: #56b4be; 
-  color: white;
-  border-bottom: 1px solid #56b4be;
-}
-
-header .logo {
-  font-size: 1.5rem;
-  color: white;
-}
-
-header nav a {
-  margin-left: 2rem;
-  text-decoration: none;
-  color: white;
-}
-
-header nav a:hover {
-  text-decoration: underline;
-}
-
-header nav a.active {
-  font-weight: bold;
-}
 
 
 
