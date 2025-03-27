@@ -12,11 +12,11 @@
                 <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Ethan Hawkins</span>
             </NavBrand>
             <NavHamburger />
-            <NavUl class="bg-white p-2 rounded-lg shadow-lg">
-                <NavLi href="{base}/" style="color: #be56b4;" class="hover:text-pink-700">Home</NavLi>
-                <NavLi href="{base}/projects" style="color: #be56b4;" class="hover:text-pink-700">Projects</NavLi>
-                <NavLi href="{base}/blog" style="color: #be56b4;" class="hover:text-pink-700">Blog</NavLi>
-                <NavLi href="{base}/employment" style="color: #be56b4;" class="hover:text-pink-700">Employment</NavLi>
+            <NavUl class="p-2 rounded-lg shadow-lg">
+                <NavLi href="{base}/" class="text-black hover:text-gray-600">Home</NavLi>
+                <NavLi href="{base}/projects" class="text-black hover:text-gray-600">Projects</NavLi>
+                <NavLi href="{base}/blog" class="text-black hover:text-gray-600">Blog</NavLi>
+                <NavLi href="{base}/employment" class="text-black hover:text-gray-600">Employment</NavLi>
             </NavUl>
         </Navbar>
     </header>
