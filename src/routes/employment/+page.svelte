@@ -32,13 +32,21 @@
                   </svelte:fragment>
                   <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Mostly did work on ETL for a very large client, and built internal tools for DevOps processes. Probably doesn't look good that I was an intern for this long, but they just wanted to keep me around until I graduated as a part timer hehe</p>
                 </TimelineItem>
-                <TimelineItem title="Graduate Consultant" date="Nov 2024 - Present">
+                <TimelineItem title="Graduate Consultant" date="Nov 2024 - April 2025">
                   <svelte:fragment slot="icon">
                     <span class="flex absolute -start-3 justify-center items-center w-8 h-8">
                         <img src="{base}/altis.png" class="w-8 h-8 mr-2" alt="altis" />
                     </span>
                   </svelte:fragment>
                   <p class="text-base font-normal text-gray-500 dark:text-gray-400">Built a Streamlit (Python) app to manage offboarding and security of customers for a client needing to meet complex ACCC requirements. Building more ETL, and ETL tools!</p>
+                </TimelineItem>
+                <TimelineItem title="Junior Software Engineer" date="April 2025 - Present">
+                  <svelte:fragment slot="icon">
+                    <span class="flex absolute -start-3 justify-center items-center w-8 h-8">
+                        <img src="{base}/household-capital.png" class="w-8 h-8 mr-2" alt="household capital" />
+                    </span>
+                  </svelte:fragment>
+                  <p class="text-base font-normal text-gray-500 dark:text-gray-400">Building a customer portal webapp in Flutter</p>
                 </TimelineItem>
                 <TimelineItem title="Who Knows?" date="??? - ???">
                     <svelte:fragment slot="icon">
