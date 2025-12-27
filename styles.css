@@ -170,7 +170,6 @@ h1 {
     max-width: 800px;
     height: auto;          
     min-height: 400px;
-    padding-bottom: 20px;
 }
 
 /* mobile stuff */
@@ -193,8 +192,6 @@ h1 {
     .main-content img.gif-button {
         position: static;    
         margin: 10px;       
-        width: 64px;
-        height: 64px; 
     }
 }
 
