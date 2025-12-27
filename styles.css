@@ -35,7 +35,7 @@ body {
 p {
   font-family: 'BodyText', serif;
   font-size: 18px;
-  padding: 20px;
+  padding-left: 20px;
 }
 
 h2 {
@@ -170,6 +170,18 @@ h1 {
     max-width: 800px;
     height: auto;          
     min-height: 400px;
+}
+
+.lyrics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lyrics p {
+  font-style: italic;
+  align-self: center;
 }
 
 /* mobile stuff */
