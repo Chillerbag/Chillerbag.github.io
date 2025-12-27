@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+}
+
+@font-face {
+  font-family: 'BodyText2'; 
+  src: url('resources/fonts/KosugiMaru-Regular.ttf') format('truetype');
+  font-weight:bold; 
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: 'BodyText'; 
+  src: url('resources/fonts/KosugiMaru-Regular.ttf') format('truetype');
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: 'Heading'; 
+  src: url('resources/fonts/KiwiSoda.ttf') format('truetype');
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+@font-face {
+  font-family: 'Emoji'; 
+  src: url('resources/fonts/EmojiFont.ttf') format('truetype');
+  font-weight: normal; 
+  font-style: normal;  
+}
+
+p {
+  font-family: 'BodyText', serif;
+  font-size: 18px;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Emoji';
+  font-size: 36px;
+  display: inline;
+}
+
+h3 {
+  font-family: 'Emoji';
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'BodyText2', serif;
+  font-size: 36px;
+  padding-left: 20px;
+  display: inline;
+  align-self:flex-start;
+}
+
+.animated-title span {
+  display: inline-block;
+  font-family: 'BodyText', serif;
+  font-size: 18px;
+}
+
+.main-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #baebed;
+    position: relative;
+    overflow-x: hidden; 
+}
+
+.current-me-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current-me {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-wrapper::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: calc(50% + 400px); 
+    background-image: url('resources/left.png');
+    background-size: auto; 
+    background-position: right;
+    z-index: 1;
+}
+
+.main-wrapper::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: calc(50% + 400px); 
+    background-image: url('resources/right.png');
+    background-size: auto; 
+    background-position: left; 
+    z-index: 1;
+}
+
+.main-content {
+    position: relative;
+    z-index: 2;
+    width: 800px;
+    background-color: #baebed;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content img.gif-button {
+    width: 128px; 
+    height: 128px;
+    position: absolute;
+    z-index: 10;
+}
+
+.pos-home {
+  top: 100px;
+  right: 280px
+}
+
+.pos-blog {
+  top: 220px;
+  right: 150px;
+}
+
+.pos-connect {
+  top: 220px;
+  right: 350px;
+}
+
+.pos-projects {
+  top: 100px;
+  right: 50px;
+}
+
+.current-me img {
+  align-self: center;
+  justify-content: right;
+  max-width: 30%;
+  max-height: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.current-me p {
+  max-width: 60%;
+  height: auto;
+}
+
+.header {
+    position: relative; 
+    width: 800px;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
