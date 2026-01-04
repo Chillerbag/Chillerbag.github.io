@@ -44,7 +44,7 @@ function renderSinglePost(post) {
     postEl.innerHTML = `
         <h1>${post.title}</h1>
         <br></br>
-        <h2>${post.date}<h2>
+        <h2>${post.date.toDateString()}<h2>
         <hr></hr> 
         <p>${post.content}</p>
     `
