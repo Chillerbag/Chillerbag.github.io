@@ -5,10 +5,17 @@ body {
 }
 
 @font-face {
-  font-family: 'BodyText2'; 
+  font-family: 'BodyTextBold'; 
   src: url('resources/fonts/KosugiMaru-Regular.ttf') format('truetype');
   font-weight:bold; 
   font-style: normal;  
+}
+
+@font-face {
+  font-family: 'BodyTextItalic'; 
+  src: url('resources/fonts/KosugiMaru-Regular.ttf') format('truetype');
+  font-weight: normal; 
+  font-style: italic;  
 }
 
 @font-face {
@@ -45,6 +52,31 @@ h2 {
   display: inline;
 }
 
+.blog-post {
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-height: fit-content;
+  background-color: aliceblue;
+  border-radius: 16px;
+  justify-self: center;
+}
+
+.blog-post h2 {
+  font-family: 'BodyTextItalic', serif;
+  font-size: 18px;
+  color: gray;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.blog-post p {
+  color: #333;
+}
+
+
+
 h3 {
   font-family: 'Emoji';
   font-size: 36px;
@@ -54,7 +86,7 @@ h3 {
 }
 
 h1 {
-  font-family: 'BodyText2', serif;
+  font-family: 'BodyTextBold', serif;
   font-size: 36px;
   padding-left: 20px;
   display: inline;

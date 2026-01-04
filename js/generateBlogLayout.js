@@ -29,6 +29,7 @@ async function generatePosts() {
             } else {
                 const content = await response.text();
                 blogPost.content = content;
+                renderSinglePost(blogPost);
             }
         }
     } catch (err) {
@@ -39,6 +40,15 @@ async function generatePosts() {
 function renderSinglePost(post) {
     const postEl = document.createElement('article');
     postEl.className = 'blog-post';
+    // todo - insert and do html and css for this. 
+    postEl.innerHTML = `
+        <h1>${post.title}</h1>
+        <br></br>
+        <h2>${post.date}<h2>
+        <hr></hr> 
+        <p>${post.content}</p>
+    `
+    blogDiv.appendChild(postEl);
 }
 
 generatePosts();
