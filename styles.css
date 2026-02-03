@@ -64,6 +64,11 @@ h2 {
   justify-self: center;
 }
 
+.blog-layout {
+  display: flex;
+  gap: 20px;
+}
+
 .blog-post h2 {
   font-family: 'BodyTextItalic', serif;
   font-size: 18px;
