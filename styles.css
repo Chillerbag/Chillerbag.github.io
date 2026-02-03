@@ -66,6 +66,7 @@ h2 {
 
 .blog-layout {
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
