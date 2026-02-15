@@ -25,7 +25,6 @@ waveTexts.forEach((text) => {
     });
 });
 
-// get the spans from wavetexts. Neat! didnt know doc selector worked like this.
 const letters = document.querySelectorAll('.animated-title span');
 console.log(letters);
 
