@@ -21,7 +21,6 @@ const sunMoon = document.querySelector('.day-night-cycle');
 nextButton.addEventListener("click", () => changePostButton(-1));
 prevButton.addEventListener("click", () => changePostButton(1));
 
-
 async function generatePosts() {
     try {
         let response = await fetch('./resources/blog_posts/posts.json')
@@ -82,6 +81,7 @@ function sunMoonAnimation() {
     currentOpacity = Math.min(Math.max(currentOpacity, 0), 1);
     sunMoon.style.opacity = currentOpacity;
 
+    // total guesswork. roughly halfway
     if (Math.abs(angle % Math.PI - Math.PI / 2) < 0.05) {
         sunMoon.src = isDay ? 'resources/icon_buttons/sun_icon.gif' : 'resources/icon_buttons/moon_icon.gif';
         currentOpChange = -currentOpChange;
