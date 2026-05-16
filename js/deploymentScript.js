@@ -1,4 +1,5 @@
 // manually ran for now with node.
+// TODO - reformat txt files.
 
 const fs = require('fs');
 try {
